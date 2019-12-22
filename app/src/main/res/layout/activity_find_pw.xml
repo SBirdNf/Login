@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:label="@string/aboutTitleFPW"
+    android:background="@mipmap/b1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/title_fpw"
+        android:textSize="50sp"
+        android:textColor="#FFFFFF"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv_uesr_fpw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_user_fpw"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/et_user_fpw"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_user_fpw"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv_password_fpw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_password_fpw"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/et_password_fpw"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_password_fpw"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv_conpassword_fpw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_conpassword_fpw"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/et_conpassword_fpw"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_conpassword_fpw"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv_vcode_fpw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_vcode_fpw"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/et_vcode_fpw"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_vcode_fpw"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/bt_vcode_fpw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_vcode_fpw"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/bt_get_fpw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_get_fpw"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:background="#1A76E9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="乐学悦享团队技术支持"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

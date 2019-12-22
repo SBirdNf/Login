@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="logo">校园社区</string>
+    <string name="tv_username">账号</string>
+    <string name="tv_password">密码</string>
+    <string name="bt_fgt">忘记密码</string>
+    <string name="bt_log">登录</string>
+    <string name="bt_res">注册</string>
+    <string name="et_username">邮箱</string>
+    <string name="et_password">密码</string>
+
+    <string name="app_name_fpw">校园社区</string>
+    <string name="title_fpw">找回密码</string>
+    <string name="tv_user_fpw">丢失账号</string>
+    <string name="et_user_fpw">请输入账号</string>
+    <string name="tv_password_fpw">输入密码</string>
+    <string name="et_password_fpw">请输入密码</string>
+    <string name="tv_conpassword_fpw">确认密码</string>
+    <string name="et_conpassword_fpw">请再次输入密码</string>
+    <string name="tv_vcode_fpw">验证码</string>
+    <string name="et_vcode_fpw">获取验证码</string>
+    <string name="bt_vcode_fpw">获取</string>
+    <string name="bt_get_fpw">找回</string>
+
+    <string name="app_name_reg">校园社区</string>
+    <string name="title_reg">欢迎您注册校园社区账号</string>
+    <string name="tv_name_reg">您的昵称</string>
+    <string name="et_name_reg">请输入6位昵称</string>
+    <string name="tv_user_reg">您的账号</string>
+    <string name="et_user_reg">请输入账号</string>
+    <string name="tv_password_reg">您的密码</string>
+    <string name="et_password_reg">请输入6-12位字母数字组合密码</string>
+    <string name="tv_conpassword_reg">确认密码</string>
+    <string name="et_conpassword_reg">请再次输入密码</string>
+    <string name="tv_vcode_reg">验证码</string>
+    <string name="et_vcode_reg">获取验证码</string>
+    <string name="bt_vcode_reg">获取</string>
+    <string name="bt_register_reg">注册</string>
+    <string name="bt_already_reg">已有账号，点击登录</string>
+
+    <string name="aboutTitleMain"></string>
+    <string name="aboutTitleFPW">找回密码</string>
+    <string name="aboutTitleREG">注册</string>
+</resources>
